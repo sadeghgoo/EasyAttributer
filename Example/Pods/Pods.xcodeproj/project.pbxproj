@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0086D0636218036C1DABA6444B7D8B9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		31B8A6C6B5D9330D3B8B1281C3F2EFE5 /* EasyAttributer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 680B7112F74FE3C8E3F00157743D94FC /* EasyAttributer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3687D136270D764F00E84F14 /* EasyAttributerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3687D135270D764F00E84F14 /* EasyAttributerError.swift */; };
+		3687D143270D7A2C00E84F14 /* EasyAttributerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3687D142270D7A2C00E84F14 /* EasyAttributerError.swift */; };
 		4AA112430EE8EB2D8D74E237C1962782 /* Pods-EasyAttributer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E547351386A1D409FFD2EF7C498D435 /* Pods-EasyAttributer_Example-dummy.m */; };
 		80593B99D975821B151D0F416561D4E3 /* EasyAttributer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F837FE18C5BFECC2A3ED3BBFB8ADA6 /* EasyAttributer.swift */; };
 		83DB11F35166FEF1E81D6051DA075E59 /* Pods-EasyAttributer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE633DDE1328A0542FA8A494878DCF36 /* Pods-EasyAttributer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,7 +41,7 @@
 		03B3D5A17D85E70CDC582DE6D13194E3 /* Pods-EasyAttributer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyAttributer_Example-frameworks.sh"; sourceTree = "<group>"; };
 		13119EFBF470A21C453E72D11C794DB1 /* EasyAttributer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EasyAttributer-Info.plist"; sourceTree = "<group>"; };
 		13ADAB05984776CD169C0C393FCF2DCA /* Pods-EasyAttributer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyAttributer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3687D135270D764F00E84F14 /* EasyAttributerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyAttributerError.swift; sourceTree = "<group>"; };
+		3687D142270D7A2C00E84F14 /* EasyAttributerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EasyAttributerError.swift; path = EasyAttributer/Classes/EasyAttributerError.swift; sourceTree = "<group>"; };
 		36E310940791666C94B281D628A205D7 /* Pods-EasyAttributer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyAttributer_Tests-Info.plist"; sourceTree = "<group>"; };
 		38F837FE18C5BFECC2A3ED3BBFB8ADA6 /* EasyAttributer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyAttributer.swift; path = EasyAttributer/Classes/EasyAttributer.swift; sourceTree = "<group>"; };
 		439DD287E04235E1235CD5BBD69C4783 /* Pods-EasyAttributer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyAttributer_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -208,8 +208,8 @@
 		E9151914110261E46F6E41A1E419279A /* EasyAttributer */ = {
 			isa = PBXGroup;
 			children = (
+				3687D142270D7A2C00E84F14 /* EasyAttributerError.swift */,
 				38F837FE18C5BFECC2A3ED3BBFB8ADA6 /* EasyAttributer.swift */,
-				3687D135270D764F00E84F14 /* EasyAttributerError.swift */,
 				CAB4E22B9CF39AFA9C15A1D96A17203C /* Pod */,
 				D94B3F733A5094ADA0F66C27D7E4A2D6 /* Support Files */,
 			);
@@ -378,7 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3687D136270D764F00E84F14 /* EasyAttributerError.swift in Sources */,
+				3687D143270D7A2C00E84F14 /* EasyAttributerError.swift in Sources */,
 				B0E94C70C14B76A5279C6CE97A1801DD /* EasyAttributer-dummy.m in Sources */,
 				80593B99D975821B151D0F416561D4E3 /* EasyAttributer.swift in Sources */,
 			);
