@@ -1,0 +1,16 @@
+PODS:
+  - EasyAttributer (0.1.0)
+
+DEPENDENCIES:
+  - EasyAttributer (from `../`)
+
+EXTERNAL SOURCES:
+  EasyAttributer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EasyAttributer: 95385698020692f7429dd53e42337f9a1d23348f
+
+PODFILE CHECKSUM: f04f8c6028e59dafaa1abc71e0f47c813c01b8cc
+
+COCOAPODS: 1.10.0

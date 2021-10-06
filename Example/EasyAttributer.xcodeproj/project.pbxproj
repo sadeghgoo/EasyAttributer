@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0F39DBDD725738B9555C84E7 /* Pods-EasyAttributer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAttributer_Example.release.xcconfig"; path = "Target Support Files/Pods-EasyAttributer_Example/Pods-EasyAttributer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		19BF29D1EDFF9C6D053B3776 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		19BF29D1EDFF9C6D053B3776 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		44C9C3EA33441616D02DE1FC /* Pods_EasyAttributer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyAttributer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* EasyAttributer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyAttributer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7DFC5432424D1BD1F761F0A1 /* Pods-EasyAttributer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAttributer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EasyAttributer_Tests/Pods-EasyAttributer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A163374BBEDB8ECC622A49A2 /* Pods-EasyAttributer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAttributer_Tests.release.xcconfig"; path = "Target Support Files/Pods-EasyAttributer_Tests/Pods-EasyAttributer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B6D5344981904E4FC13B90C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B6D5344981904E4FC13B90C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CEC0AB9DE9E35350E51B0511 /* Pods_EasyAttributer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyAttributer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C6EECF4B2F54C6E3321C07 /* Pods-EasyAttributer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAttributer_Example.debug.xcconfig"; path = "Target Support Files/Pods-EasyAttributer_Example/Pods-EasyAttributer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DE2DA010EC56EF92B9C42C03 /* EasyAttributer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EasyAttributer.podspec; path = ../EasyAttributer.podspec; sourceTree = "<group>"; };
+		DE2DA010EC56EF92B9C42C03 /* EasyAttributer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EasyAttributer.podspec; path = ../EasyAttributer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				7DFC5432424D1BD1F761F0A1 /* Pods-EasyAttributer_Tests.debug.xcconfig */,
 				A163374BBEDB8ECC622A49A2 /* Pods-EasyAttributer_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
