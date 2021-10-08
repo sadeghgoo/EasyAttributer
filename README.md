@@ -7,7 +7,7 @@
 
 Easy Attributer is a library that generates attributed string by matched regexes.
 
-This is how EasyAttributer works: 
+**This is how EasyAttributer works:**
 ![](https://github.com/sadeghgoo/EasyAttributer/blob/master/EasyAttributer_Introduction.gif)
 - [Features](#features)
 - [Requirements](#requirements)
