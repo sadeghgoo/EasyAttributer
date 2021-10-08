@@ -44,7 +44,7 @@ end
 ```
 
 ## Basic usage
-*Before anything review project UnitTests and example*
+*Before anything review project UnitTests and example.*
 1. Create instance of `EasyAttributer`.
 2. Pass your custom regexes to `EasyAttributer` instance.
 3. Call `transform(:_)` method.
