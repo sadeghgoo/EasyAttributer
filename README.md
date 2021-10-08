@@ -31,7 +31,7 @@ You can install Cocoapods with the following command:
 ```
 $ gem install cocoapods
 ```
-To integrate MagicTimer into your Xcode project using CocoaPods, specify it in your `Podfile`.
+To integrate EasyAttributer into your Xcode project using CocoaPods, specify it in your `Podfile`.
 ```ruby
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
