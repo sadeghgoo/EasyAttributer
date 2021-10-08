@@ -1,6 +1,5 @@
 # EasyAttributer
 
-[![CI Status](https://img.shields.io/travis/Sadegh/EasyAttributer.svg?style=flat)](https://travis-ci.org/Sadegh/EasyAttributer)
 [![Version](https://img.shields.io/cocoapods/v/EasyAttributer.svg?style=flat)](https://cocoapods.org/pods/EasyAttributer)
 [![License](https://img.shields.io/cocoapods/l/EasyAttributer.svg?style=flat)](https://cocoapods.org/pods/EasyAttributer)
 [![Platform](https://img.shields.io/cocoapods/p/EasyAttributer.svg?style=flat)](https://cocoapods.org/pods/EasyAttributer)
