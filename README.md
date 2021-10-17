@@ -3,7 +3,6 @@
 [![Version](https://img.shields.io/cocoapods/v/EasyAttributer.svg?style=flat)](https://cocoapods.org/pods/EasyAttributer)
 [![License](https://img.shields.io/cocoapods/l/EasyAttributer.svg?style=flat)](https://cocoapods.org/pods/EasyAttributer)
 [![Platform](https://img.shields.io/cocoapods/p/EasyAttributer.svg?style=flat)](https://cocoapods.org/pods/EasyAttributer)
-[![Thread safe](https://img.shields.io/badge/Thread%20safe-%20%3A-green)](https://cocoapods.org/pods/EasyAttributer)
 
 Easy Attributer is a library that generates attributed string by matched regexes.
 
@@ -16,7 +15,6 @@ Easy Attributer is a library that generates attributed string by matched regexes
 
 ## Features
 - [x] Support custom regex.
-- [x] Thread safe.
 - [x] High performance.
 - [x] **Easy to use**
 
