@@ -30,8 +30,13 @@ class ViewController: UIViewController {
         let str = "Hi @Merlia[AVV] how old are you?. This my website url: https://www.google.com"
         let parser = EasyAttributer(regexes: [UserMentionRegex(), URLRegex()])
         do {
-            let attributedText = try parser.transform(text: str) { (r) -> [NSAttributedString.Key : Any] in
-                return [NSAttributedString.Key.foregroundColor : UIColor.blue]
+            let attributedText = try parser.transform(text: str) { (result) -> [NSAttributedString.Key : Any] in
+              if result.regex.pattern == UserMentionRegex().pattern {
+                return [NSAttributedString.Key.foregroundColor : UIColor.systemOrange]
+              } else {
+                return [NSAttributedString.Key.foregroundColor : UIColor.systemBlue]
+              }
+                
             }
             textView.attributedText = attributedText
         } catch {
