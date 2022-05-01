@@ -24,8 +24,8 @@ public protocol ESRegexBehavior {
 }
 
 public struct ESTextResult {
-    let regex: ESRegexBehavior
-    let nsTextCheckingResult: NSTextCheckingResult
+    public let regex: ESRegexBehavior
+    public let nsTextCheckingResult: NSTextCheckingResult
 }
 
 /*
