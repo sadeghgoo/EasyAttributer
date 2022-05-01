@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'EasyAttributer'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'A library that generates attributed string by matched regexes.'
 
   s.homepage         = 'https://github.com/sadeghgoo/EasyAttributer'
