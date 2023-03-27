@@ -71,10 +71,14 @@ A regex behavior type. Create your regex by conforming to this protocol.
 public protocol ESRegexBehavior
 ```
 
-## Author
+## Support
+Hey there! I'm fueled by coffee and code ☕️ If you're enjoying my work, consider buying me a coffee to keep me motivated and productive. Your caffeine-powered contribution will keep me going and help me to develop even better projects. Thanks for keeping me caffeinated and inspired!
 
+TRC20 USDT address
+TFZ4XoNo6F2kz6PUgk5SBmWoGULoB67vWV
+
+## Author
 sadeq, sadeqbitarafan@gmail.com
 
 ## License
-
 EasyAttributer is available under the MIT license. See the LICENSE file for more info.
